@@ -1,0 +1,74 @@
+/* AddQRcode.css */
+
+.add-qrcode-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+.add-qrcode-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.add-qrcode-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.message {
+    margin-top: 20px;
+    font-size: 16px;
+    color: green;
+    text-align: center;
+}
+
+.download-link {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.download-link a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.download-link a:hover {
+    text-decoration: underline;
+}

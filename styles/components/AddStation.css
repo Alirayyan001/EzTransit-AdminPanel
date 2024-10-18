@@ -1,0 +1,179 @@
+/* AddStation.css */
+.station-management-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.station-management-container h2 {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.station-management-container h2 i {
+    color: #ff7a59;
+    margin-right: 10px;
+    font-size: 28px;
+}
+
+.station-management-form-group,
+.station-management-entry {
+    margin-bottom: 20px;
+}
+
+.station-management-form-group label,
+.station-management-entry label {
+    font-size: 16px;
+    font-weight: 500;
+    color: #666;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.station-management-form-group input[type="text"],
+.station-management-form-group input[type="number"],
+.station-management-entry input[type="text"],
+.station-management-entry input[type="number"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.station-management-form-group input[type="text"]:focus,
+.station-management-form-group input[type="number"]:focus,
+.station-management-entry input[type="text"]:focus,
+.station-management-entry input[type="number"]:focus {
+    outline: none;
+    border-color: #ff7a59;
+    box-shadow: 0 0 5px rgba(255, 122, 89, 0.2);
+}
+
+.station-management-form-group input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.station-management-apply-same-fare label i {
+    color: #ff7a59;
+}
+
+.station-management-import-method {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.station-management-import-method label {
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.station-management-import-method label i {
+    color: #ff7a59;
+    margin-right: 8px;
+    font-size: 18px;
+}
+
+.station-management-entry {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.station-management-entry input {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.station-management-entry input:last-child {
+    margin-right: 0;
+}
+
+button {
+    background-color: #ff7a59;
+    color: #fff;
+    border: none;
+    padding: 12px 18px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e96c4d;
+}
+
+button i {
+    margin-right: 8px;
+}
+
+.station-management-error-message {
+    color: #e63946;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.station-management-csv-data {
+    margin-top: 20px;
+}
+
+.station-management-csv-upload label {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.station-management-csv-upload input[type="file"] {
+    margin-top: 10px;
+}
+
+.station-management-csv-data h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.station-management-csv-data input[type="text"],
+.station-management-csv-data input[type="number"] {
+    margin-bottom: 10px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .station-management-entry {
+        flex-direction: column;
+    }
+
+    .station-management-entry input {
+        margin-bottom: 10px;
+    }
+
+    .station-management-import-method {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .station-management-container {
+        padding: 15px;
+    }
+
+    button {
+        width: 100%;
+    }
+} 
