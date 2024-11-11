@@ -1,3 +1,4 @@
+//Model for topup requests
 const mongoose = require('mongoose');
 
 const topupSchema = new mongoose.Schema({
