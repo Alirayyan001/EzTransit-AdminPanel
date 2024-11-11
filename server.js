@@ -1,4 +1,4 @@
-// server.js
+// server.js file for admin panel backend
 
 const express = require('express');
 const mongoose = require('mongoose');
